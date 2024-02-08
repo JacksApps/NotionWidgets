@@ -10,15 +10,14 @@ body {
 }
 
 #app-cover {
-  transform: scale(0.5);
-  transform-origin: top left;
+  transform: scale(0.5) translate(-50%, -50%);
+  transform-origin: center center;
   position: absolute;
   top: 50%;
-  right: 0;
-  left: 0;
+  left: 50%;
   width: 430px;
   height: 100px;
-  margin: -4px auto;
+  margin: 0; /* Adjusted from -4px auto; considering the transform changes */
 }
 
 #bg-artwork {
