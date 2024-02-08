@@ -5,10 +5,13 @@
 body {
   font-family: Helvetica, Arial;
   margin: 0;
-  background-color: #ffeff5;
+  background-color: rgba(255, 255, 255, 0.1); /* Transparent white */
+
 }
 
 #app-cover {
+  transform: scale(0.5);
+  transform-origin: top left;
   position: absolute;
   top: 50%;
   right: 0;
@@ -28,7 +31,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
-  filter: blur(40px);
+  filter: blur(20px);
   -webkit-filter: blur(40px);
   z-index: 1;
 }
@@ -39,8 +42,8 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #fff;
-  opacity: 0.51;
+  background-color: #FFF;
+  opacity: 0.8;
   z-index: 2;
 }
 
@@ -56,7 +59,8 @@ body {
   right: 15px;
   left: 15px;
   padding: 13px 22px 10px 184px;
-  background-color: #fff7f7;
+  background-
+  : #fff7f7;
   border-radius: 15px 15px 0 0;
   transition: 0.3s ease top;
   z-index: 1;
