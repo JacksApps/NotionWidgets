@@ -30,10 +30,10 @@ $(function () {
     buffInterval = null,
     tFlag = false,
     albums = [
-      "Question 1",
+      "Themes of last year",
     ],
     trackNames = [
-      "explanation"
+      "Walkthrough"
     ],
     albumArtworks = ["_1"],
     trackUrl = ["https://github.com/JacksApps/NotionWidgets/raw/main/Exercise%201_R1.mp3"
