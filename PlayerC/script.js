@@ -30,7 +30,7 @@ $(function () {
     buffInterval = null,
     tFlag = false,
     albums = [
-      "Themes of this year",
+      "Themes of this year","Themes of this year","Themes of this year","Themes of this year"
     ],
     trackNames = [
       "Introduction","Question 1","Question 2","After thoughts"
