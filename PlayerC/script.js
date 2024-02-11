@@ -35,7 +35,7 @@ $(function () {
     trackNames = [
       "Introduction","Question 1","Question 2","After thoughts"
     ],
-    albumArtworks = ["_1"],
+    albumArtworks = ["_1","_2","_3","_4"],
     trackUrl = ["https://github.com/JacksApps/NotionWidgets/raw/main/Exercise%202%20introduction%20R1.mp3",
   "https://github.com/JacksApps/NotionWidgets/raw/main/Exercise%202%20question%201%20R1.mp3",
 "https://github.com/JacksApps/NotionWidgets/raw/main/Exercise%202%20question%202%20R1.mp3",
